@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho{
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #39101000;
+}
+
+#logo{
+    width: 10%;
+    padding-left: 30px;
+}
+/*Organização do conteúdo da página principal - background dos produtos*/
+
+.apresentacao-produtos{
+    height: 100vh;
+}
+.background-desenho{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 59%;
+    display: inline-block;
+    position: relative;
+}
+
+.background-cor{
+    display: inline-block;
+    width: 40%;
+    height: 100vh;
+    position: relative;
+}
+
+.produto-1{
+    background-image: url("./Imagens/background-morango.png");
+}
+
+.info-produto-1{
+    background-color: #C81919;
+    right: 4px;
+}
+
+.produto-2{
+    background-image: url("./Imagens/background-chocolate.png");
+}
+
+.info-produto-2{
+    background-color: #391010;
+    right: 4px;
+}
+
+.produto-3{
+    background-image: url("./Imagens/background-banana.png");
+}
+
+.info-produto-3{
+    background-color: #FFD43D;
+    right: 4px;
+}
