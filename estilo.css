@@ -16,6 +16,7 @@
     width: 10%;
     padding-left: 30px;
 }
+
 /*Organização do conteúdo da página principal - background dos produtos*/
 
 .apresentacao-produtos{
@@ -36,6 +37,7 @@
     width: 40%;
     height: 100vh;
     position: relative;
+    box-shadow: -2px 0 30px;
 }
 
 .produto-1{
@@ -52,7 +54,7 @@
 }
 
 .info-produto-2{
-    background-color: #391010;
+    background-color: #471E0B;
     right: 4px;
 }
 
@@ -61,6 +63,6 @@
 }
 
 .info-produto-3{
-    background-color: #FFD43D;
+    background-color: #f7cf42;
     right: 4px;
 }
