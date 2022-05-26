@@ -42,7 +42,7 @@
 }
 
 .produto-1{
-    background-image: url("./Imagens/background-morango.png");
+    background-image: url("./Imagens/backgrounds/background-morango.png");
 }
 
 .info-produto-1{
@@ -51,7 +51,7 @@
 }
 
 .produto-2{
-    background-image: url("./Imagens/background-chocolate.png");
+    background-image: url("./Imagens/backgrounds/background-chocolate.png");
 }
 
 .info-produto-2{
@@ -60,7 +60,7 @@
 }
 
 .produto-3{
-    background-image: url("./Imagens/background-banana.png");
+    background-image: url("./Imagens/backgrounds/background-banana.png");
 }
 
 .info-produto-3{
