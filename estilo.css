@@ -7,16 +7,29 @@
 
 /*Organização do menu*/
 header{
-    display: inline-block;
-    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
     position: fixed;
     top: 0;
 }
+#nav-bar1{
+    justify-content: flex-start;
+}
+#nav-bar2{
+    padding-right: 85px;
+}
+.nav-bar{
+    width: 100vh;  
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
 
 .inner-width{
-    max-width: 100%;
+    display: flex;
+    width: 100vw;
     padding: 0 10px;
-    margin: auto;
 }
 
 .logo{
@@ -76,16 +89,10 @@ header{
 }
 
 .menu-toggle-btn{
-    float: right;
-    height: 90px;
-    line-height: 90px !important;
     color: #fff;
     font-size: 26px;
-    display: block !important;
     cursor: pointer;
-    position: absolute;
-    left: 1400px;
-    top: 10px;
+    top: 0;
 }
 
 .home{
@@ -111,7 +118,9 @@ header{
 /*Organização do conteúdo da página principal - background dos produtos*/
 
 .apresentacao-produtos{
+    display: flex;
     height: 100vh;
+    width: 99.14vw;
 }
 .background-desenho{
     background-origin: padding-box;
@@ -119,14 +128,14 @@ header{
     background-size: cover;
     background-position: center center;
     height: 100vh;
-    width: 59%;
+    width: 60vw;
     display: inline-block;
     position: relative;
 }
 
 .background-cor{
     display: inline-block;
-    width: 40%;
+    width: 40vw;
     height: 100vh;
     position: relative;
     box-shadow: -2px 0 30px black;
@@ -157,4 +166,12 @@ header{
 .info-produto-3{
     background-color: #ffcf1f;
     right: 4px;
+}
+
+.img-produto{
+    height: 70vh;
+    width: 35vw;
+    position: relative;
+    top: 15%;
+    left: 20%;
 }
