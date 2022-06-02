@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Arial';
 }
 
 h2, b{
@@ -219,16 +219,18 @@ header{
     border: 1px solid #bababa;
     border-radius: 10px;
     background-color: ghostwhite;
-    float: left;
     padding-left: 10px;
 }
     .carousel>ul>li>img {
-        width: 150px;
-        height: 118px;
         vertical-align:middle;
-        margin: 10px 10px 10px 0;
+        margin: 10px 10px 2px 0;
         border-radius: 5px;
     }
+
+    .carousel ul li{
+        height: 20vh;
+    }
+
 
 a.prev, a.next {
     display: block;
@@ -252,4 +254,8 @@ a.prev, a.next {
         a.prev:hover, a.next:hover {
             background-color: #666666;
         }
+
+.basic2 h1{
+    text-align: center;
+}
 
