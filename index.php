@@ -24,7 +24,7 @@
 <body>
     <div>
         <?php
-            include_once("header.html");
+            include_once("header.php");
         ?>
         <div class="apresentacao-produtos">
             <div class="background-desenho produto-1">
@@ -128,7 +128,7 @@
 
         <br>
         <?php
-            include_once("footer.html");
+            include_once("footer.php");
         ?>
     </div>
 
