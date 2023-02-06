@@ -1,4 +1,4 @@
-<h1 align="center">Loja de açaí 🎞</h1>
+<h1 align="center">Loja de açaí 🍨</h1>
 
 <p align="center">Página web de uma loja de açaí fictícia<br/></p>
 
@@ -6,6 +6,10 @@
   <a href="#-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<p align="center">
+  <img alt="imagem do projeto" src=".github/preview.png" width="100%">
 </p>
 
 <br>
