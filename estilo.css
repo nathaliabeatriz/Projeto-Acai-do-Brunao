@@ -15,11 +15,13 @@ p{
 
 /*Estilização do menu*/
 header{
+    position: fixed;
     display: flex;
     justify-content: space-around;
     width: 99vw;
     top: 0;
-    background-color: rgb(104, 0, 117);
+    background-color: rgba(38, 33, 39, 0.7);
+    z-index: 1;
 }
 #nav-bar1{
     justify-content: flex-start;
@@ -223,11 +225,9 @@ header{
 .basic2 #titulo{
     width: 100vw;
     text-align: center;
-    background-color: rgb(104, 0, 117);
-    color: #ddd;
     padding: 20px 0;
-    text-transform: uppercase;
-    margin-top: 10px
+    margin-top: 10px;
+    letter-spacing: 3px;;
 }
 
 .carousel ul li p{
@@ -240,7 +240,7 @@ header{
 footer{
     width: 100vw;
     clear: both; /*Limpa a propriedade float*/
-    background: rgb(104, 0, 117);
+    background: rgb(38, 33, 39);
 }
 
 #rodape{
