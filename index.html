@@ -85,7 +85,6 @@
 
         <div class="basic2">
             <h2 id="titulo">Complemente o seu açaí!</h2>
-            <a href="#" class="prev">&lsaquo;</a>
             <div class="carousel">
                 <ul>
                     <li><img src="Imagens/adicionais do açaí/abacaxi.png">
@@ -133,10 +132,8 @@
                     <li><img src="Imagens/adicionais do açaí/paçoca.png">
                         <p>Paçoca<br>R$ 2,50</p>
                     </li>
-
                 </ul>
             </div>
-            <a href="#" class="next">&rsaquo;</a>
         </div>
 
         <br>
@@ -183,13 +180,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/jcarousellite.js"></script>
 
-
     <script>
-        $(".menu-toggle-btn").click(function () {
-            $(this).toggleClass(".fa-times");
-            $(".navigation-menu").toggleClass("active");
-        })
-
         $(".basic2 .carousel").jCarouselLite({
             btnNext: ".basic2 .next",
             btnPrev: ".basic2 .prev",

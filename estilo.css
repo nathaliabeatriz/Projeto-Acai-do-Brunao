@@ -199,14 +199,12 @@ header{
 /*Carrossel*/
 
 .carousel {
+    width: 100vw;
     border: 1px solid #bababa;
     border-radius: 10px;
     background-color: rgb(238, 215, 241);
-    float: left;
-    padding-left: 10px;
-    margin: 0 2%;
+    margin: 0px;
     display: inline;
-    margin-bottom: 40px;
 }
     .carousel>ul>li>img {
         vertical-align:middle;
@@ -214,35 +212,16 @@ header{
         border-radius: 5px;
     }
 
-    .carousel ul li{
-        height: 30vh;
-    }
-
-
-a.prev, a.next {
-    display: block;
-    width: 26px;
-    height: 30px;
-    line-height: 1;
-    background-color: #333333;
-    color: ghostwhite;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    font-size: 25px;
-    border-radius: 8px;
-    float: left;
-}
-    a.prev {
-        margin: 50px -5px 0 0; text-indent: 7px;
-    }
-    a.next {
-        margin: 50px 0 0 -5px; text-indent: 10px;
-    }
-        a.prev:hover, a.next:hover {
-            background-color: #666666;
-        }
         
-.basic2 h1{
+.basic2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.basic2 #titulo{
+    width: 100vw;
     text-align: center;
     background-color: rgb(104, 0, 117);
     color: #ddd;
